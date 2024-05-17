@@ -1,3 +1,8 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
 nav#menu ul{
     text-transform: uppercase;
     list-style: none;
@@ -8,4 +13,16 @@ nav#menu{
 
 nav#menu li{
     display: inline-block;
+}
+ body{
+    background: rgb(231,69,121);
+background: linear-gradient(90deg, rgba(231,69,121,1) 0%, rgba(238,157,189,1) 29%);
+ }
+    
+header{
+    background-color: antiquewhite;
+    padding-top: 70px;
+    padding-bottom: 60px;
+    position: relative;
+    
 }
