@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 nav#menu ul{
@@ -16,12 +17,12 @@ nav#menu{
 
 nav#menu li{
     display: inline-block;
-    background-color: rgb(231,69,121);
+    background-color: rgb(235, 90, 136);
 padding: 10px;
 
 }
  body{
-    background: rgb(231,69,121);
+    background: rgb(235, 90, 136);
 
  }
     
@@ -31,4 +32,24 @@ header{
     padding-bottom: 10px;
     position: relative;
     
+}
+
+/*Pseudoclasses para estilização de menu de navegação*/
+nav#menu a:link{
+    text-decoration: none;
+    color: antiquewhite;
+    font-weight: bold;
+
+
+}
+nav#menu a:visited{
+    text-decoration: none;
+    color: antiquewhite;
+    font-weight: bold;
+}
+nav#menu a:hover{
+    color: rgb(175, 59, 96);
+}
+nav#menu li:hover{
+    background-color: rgb(182, 42, 86);
 }
