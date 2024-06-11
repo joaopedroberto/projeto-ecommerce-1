@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ 
+nav#menu ul{
+    text-transform: uppercase;
+    list-style: none;
+    position: absolute;
+    top: 60px;
+    left: 970px;
+}
+nav#menu{
+    display: block;
+}
+ 
+nav#menu li{
+    display: inline-block;
+    background-color: rgb(74,7,191);
+    padding: 10px;
+ 
+}
+body{
+    background: rgb(74,7,191);
+}
+header{
+    background-color: antiquewhite;
+    padding-top: 70px;
+    padding-bottom: 12px;
+    position: relative;
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+nav#menu ul {
+    text-transform: uppercase;
+    list-style: none;
+    position: absolute;
+    top: 60px;
+    left: 900px;
+}
+nav#menu {
+    display: block;
+}
+nav#menu li {
+    display: inline-block;
+    background-color: rgb(66, 73, 212);
+    padding: 12px;
+}
+body {
+    background: rgb(66, 73, 212);   
+}
+header{
+    background-color:antiquewhite;
+    padding-top: 70px;
+    padding-bottom: 10px;
+    position: relative;
+}
+
+/Pseudoclasses para estilização de menu de navegação/
+nav#menu a:link{
+    text-decoration: none;
+    color: antiquewhite;
+    font-weight: bold;
+}
+nav#menu a:visited{
+    text-decoration: none;
+    color: antiquewhite;
+    font-weight: bold;
+}
+nav#menu li:hover{
+    background-color: rgb(19, 24, 126);
+}
+
+/* Manipulação de imagens do projeto, na página produtos */
+.produtos img{
+    max-width: 300px;
+
+}
+.produtos p{
+    color: white;
+    
+}
+
+.precoDesc{
+    font-size: 25px;
+}
