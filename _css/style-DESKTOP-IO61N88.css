@@ -16,7 +16,7 @@ nav#menu{
  
 nav#menu li{
     display: inline-block;
-    background-color: rgb(74,7,191);
+    background-color: rgb(250, 250, 250);
     padding: 10px;
  
 }
@@ -71,7 +71,7 @@ nav#menu a:visited{
     font-weight: bold;
 }
 nav#menu li:hover{
-    background-color: rgb(19, 24, 126);
+    background-color: rgb(255, 255, 255);
 }
 
 /* Manipulação de imagens do projeto, na página produtos */
